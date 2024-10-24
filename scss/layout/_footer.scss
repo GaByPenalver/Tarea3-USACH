@@ -1,0 +1,13 @@
+.footer {
+    background-color: $background-color;
+    padding-top: $padding-top;
+    text-align: $text-align;
+
+    &__link,
+    &__social-link {
+        color: $color;
+        font-size: $font-size;
+        text-decoration: text-decoration;
+    }
+
+}

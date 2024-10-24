@@ -1,0 +1,41 @@
+/*_base.scss*/
+$global-margin: 0;
+$global-padding: 0;
+$box-border: border-box;
+$hr-border-color: #000;
+$hr-border-width: 1px;
+$hr-margin: 5px;
+
+/*_carousel.scss*/
+$carousel-image-height-desktop: 500px;
+$carousel-image-height-mobile: 300px;
+
+/*_footer*/
+$background-color:#F1F3C2;
+$padding-top:20px;
+$text-align:center;
+$color:black;
+$font-size:25px;
+$text-decoration:none;
+
+/*_header*/
+$header-bg-color: #A1D6B2;
+$header-padding: 15px;
+
+$logo-max-width: 65px;
+
+$nav-link-text-color: black;
+$nav-link-font-size: 18px;
+$nav-link-padding: 10px;
+$nav-link-margin: 0 10px;
+
+/*_pilares_scss*/
+$pilares-gap: 10px;
+$pilares-padding: 20px;
+$pilares-bg-color: #F2EED7;
+$pilares-item-margin-bottom: 20px;
+
+/*_welcome.scss*/
+$welcome-title-font-size: 80px;
+$welcome-title-margin-top: 20px;
+$welcome-title-text-align: center;

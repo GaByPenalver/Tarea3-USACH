@@ -1,0 +1,18 @@
+*{
+    margin: $global-margin;
+
+    padding:$global-padding;
+    box-sizing:$box-border;
+}
+body {
+        display: grid; 
+        min-height: 100dvh; 
+        grid-template-rows: auto 1fr auto;
+        margin: 0; 
+    }
+
+hr{
+    border: $hr-border-width solid $hr-border-color;
+    margin: $hr-margin;
+}
+

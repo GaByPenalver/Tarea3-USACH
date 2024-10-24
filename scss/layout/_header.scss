@@ -1,0 +1,28 @@
+.header {
+    background-color: $header-bg-color;
+    display: flex;
+    justify-content: space-between;
+    padding: $header-padding;
+
+    &__logo-img {
+        max-width: $logo-max-width;
+        width: auto;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    &__nav-link {
+        text-decoration: none;
+        color: $nav-link-text-color;
+        font-size: $nav-link-font-size;
+        padding: $nav-link-padding;
+        margin: $nav-link-margin;
+    }
+
+    @media (max-width: 768px) {
+        &__nav-link {
+            display: block;
+            text-align: center;
+        }
+    }
+}
